@@ -1,0 +1,27 @@
+site_name: Fab Foundation Poland
+site_url: https://www.fernandocelmer.com/
+copyright: Judy Curie
+
+nav:
+    - Home: index.md
+    - About Us: nav/getting-started.md
+    - Setup:
+      - nav/setup/colors.md
+      - nav/setup/fonts.md
+      - nav/setup/logo.md
+      - nav/setup/favicon.md
+    - Development:
+      - nav/development/development-guide.md
+      - nav/development/release-notes.md
+
+theme:
+  name: simple-blog
+  title_style: normal
+  favicon: assets/favicon.ico
+  logo: images/logomini.jpg
+  # theme_style: light
+  colors:
+    text: black
+    title: black
+    primary: black
+    background: white
